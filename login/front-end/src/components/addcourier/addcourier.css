@@ -1,0 +1,56 @@
+.auth-form-container {
+  background-color: #f5e1f7; /* Light pink */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.auth-form-container h2 {
+  color: #8a2be2; /* Violet */
+  margin-bottom: 20px;
+}
+
+.add-courier-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-courier-login-form label {
+  margin-bottom: 5px;
+}
+
+.add-courier-login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-courier-login-form button {
+  background-color: #ff69b4; /* Pink */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-courier-login-form button:hover {
+  background-color: #ff1493; /* Darker pink */
+}
+
+span {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+span a {
+  color: #8a2be2; /* Violet */
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #9370db; /* Dark violet */
+  text-decoration: underline;
+}
